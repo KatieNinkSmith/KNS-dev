@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    font-family: "happy monkey", system-ui;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(173, 94, 173);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; 
+}
+.page {
+    background: linear-gradient(rgb(173, 94, 173), white, purple);
+}
+#gift-present1:hover {
+    background-image: url("crab love.webp");
+}
+#hand {
+    width: 150px;
+    padding: 20px;
+    display: flex;
+}
+.you {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+}
+#gift-present1 {
+    margin: 10px auto;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-image: url("gift.jpg");
+    border: 12px solid rgb(173, 94, 173);
+}
+#gift-present2:hover {
+    background-image: url("turtle love.webp");
+}
+#gift-present2 {
+    margin: 30px auto;
+    width: 500px;
+    height: 380px;
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-image: url("gift.jpg");
+    border: 12px solid rgb(173, 94, 173);
+}
+.link {
+    font-style: italic;
+}
